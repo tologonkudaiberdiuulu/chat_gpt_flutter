@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
-const openAiBaseUrl = 'https://api.openai.com/v1';
+const openAiBaseUrl = 'https://api.openai.com';
 const chatCompletionsEndPoint = '/chat/completions';
 const completionsEndPoint = '/completions';
 const imageGenerationsEndPoint = '/images/generations';
